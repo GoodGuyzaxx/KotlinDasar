@@ -1,5 +1,5 @@
 fun main() {
-    var i =0
+    var i =1
     while (true){
         println("perulangan $i")
         i++
@@ -8,10 +8,10 @@ fun main() {
             break
         }
     }
-    for (i in 1..1000){
-        if (i % 2 == 0){
-            continue
-        }
-        println(i )
-    }
+    //for (i in 1..1000){
+    //    if (i % 2 == 0){
+    //        continue
+    //    }
+    //    println(i )
+    //}
 }

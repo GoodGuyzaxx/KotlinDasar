@@ -12,4 +12,8 @@ fun main() {
     val nulls: Array<String?> = arrayOfNulls(3)
     nulls.set(1,"Dewa")
     println(nulls[1])
+
+    val contoh: Array<Int> = arrayOf(1,2,3)
+    contoh[0]=100
+    println(contoh[0])
 }
