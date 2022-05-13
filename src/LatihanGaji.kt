@@ -1,10 +1,19 @@
-fun main() {
-    val gajiPokok: Int = 2_000_000
-    val tunjangan: Int = 500_000
-    val potongan: Float = 0.5F
-    val hasil1=(((gajiPokok+tunjangan)/potongan))
-    println("Hasil= $hasil1")
+fun hasilGaji(){
+    print("Masukan Gaji: ")
+    val gajiPokok: String = readln()
+    val gajipokokconf = gajiPokok.toInt()
+    print("uang makan: ")
+    val uangMakan: String = readln()
+    val uangMakanconf = uangMakan.toInt()
 
-    val hasil2:Int =hasil1.toInt()
-    println(hasil2)
+    val hasil = gajipokokconf + uangMakanconf
+    println(hasil)
+
+}
+fun main( ) {
+    hasilGaji()
+
+    println("Tekan Enter Unutk Melanjutkan")
+    readln()
+    println("OK")
 }

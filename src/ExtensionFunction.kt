@@ -14,8 +14,7 @@ fun main() {
     println(name.hello())
 
     name.pHello()
-
-    "Dewantara".pHello()
+    "Dewan".pHello()
 
     //val angk = 12 * 12
   //  println(angk.kali())

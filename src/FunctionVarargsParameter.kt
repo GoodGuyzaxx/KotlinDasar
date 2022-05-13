@@ -1,4 +1,4 @@
-fun hitungTotal (name:String, vararg values: Int): Int{
+fun hitungTotal (dz:String, vararg values: Int): Int{
     var total=0
 
     for (value in values){
